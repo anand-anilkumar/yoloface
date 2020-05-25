@@ -30,7 +30,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--model-cfg', type=str, default='./cfg/yolov3-face.cfg',
                     help='path to config file')
 parser.add_argument('--model-weights', type=str,
-                    default='./model-weights/yolov3-wider_16000.weights',
+                    default='./mydrive/yolov3-wider_16000.weights',
                     help='path to weights of model')
 parser.add_argument('--image', type=str, default='',
                     help='path to image file')
